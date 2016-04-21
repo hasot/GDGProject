@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">5 Things</string>
+
+
+    <string name="back_button">Link on kinopoisk</string>
+    <string name="email_button">Send  to the author </string>
+    <string name="check_account">Must see!</string>
+    <string name="text_header">ВAnnex "5 things", I propose five films which in my opinion
+     should definitely look at. Click on the poster =)</string>
+    <string name="chooser_title">Select your browser</string>
+    <string name="limitlessInfo">
+       Limitless is a 2011 American thriller film directed by Neil Burger.
+        Based on the novel The Dark Fields by Alan Glynn,
+        the film stars Bradley Cooper, Abbie Cornish, and Robert De Niro.
+        The events portrayed in the film follow Edward Morra, a struggling writer,
+        who is introduced to a nootropic drug called NZT-48,
+        which gives him the ability to fully utilize his brain and vastly improve his lifestyle.
+    </string>
+    <string name="lock">
+       Lock, Stock and Two Smoking Barrels is a 1998 British crime comedy film written and directed by Guy Ritchie.
+        The story is a heist film involving a self-confident young card sharp
+        who loses £500,000 to a powerful crime lord in a rigged game of three card brag.
+        To pay off his debts, he and his friends decide to rob a small-time gang
+        who happen to be operating out of the flat next door.
+        The film brought Guy Ritchie international acclaim and introduced actors Vinnie Jones,
+        a former Wales international footballer, and Jason Statham, a former diver, to worldwide audiences.
+        Based on a $1.35 million budget, the film had a box office gross of $28.3 million,
+        making it a commercial success.
+    </string>
+    <string name="yes_man">Yes Man is a 2008 British–American comedy film directed by Peyton Reed,
+        written by Nicholas Stoller, Jarrad Paul, and Andrew Mogel
+        and starring Jim Carrey and co-starring Zooey Deschanel.
+        The film is based loosely on the 2005 book Yes Man by British humorist Danny Wallace,
+        who also makes a cameo appearance in the film.
+  </string>
+    <string name="thedep">
+   The Departed is a 2006 American crime drama film, directed by Martin Scorsese and written by William Monahan.
+        It is a remake of the 2002 Hong Kong film Infernal Affairs.
+        The film stars Leonardo DiCaprio, Matt Damon, Jack Nicholson, and Mark Wahlberg,
+        with Martin Sheen, Ray Winstone, Vera Farmiga, Anthony Anderson, and Alec Baldwin in supporting roles.</string>
+    <string name="recolver">
+        Revolver is a 2005 crime thriller film co-written and directed by Guy Ritchie and starring Jason Statham,
+        Ray Liotta, Vincent Pastore and André Benjamin.
+        The film centres on a revenge-seeking confidence trickster whose weapon is a universal formula
+        that guarantees victory to its user, when applied to any game or confidence trick.</string>
+    <string name="lim">http://www.kinopoisk.ru/film/462606/</string>
+    <string name="lock_link">http://www.kinopoisk.ru/film/522/</string>
+    <string name="yes">http://www.kinopoisk.ru/film/391772/</string>
+    <string name="depe">http://www.kinopoisk.ru/film/81314/</string>
+    <string name="revolve">http://www.kinopoisk.ru/film/18973/</string>
+
+</resources>

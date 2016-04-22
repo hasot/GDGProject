@@ -48,5 +48,7 @@
     <string name="yes">http://www.kinopoisk.ru/film/391772/</string>
     <string name="depe">http://www.kinopoisk.ru/film/81314/</string>
     <string name="revolve">http://www.kinopoisk.ru/film/18973/</string>
-
+    <string name="not_client"> There are no email clients installed.</string>
+    <string name="send_email"> Send email </string>
+    <string name="subject_email"> subject of email </string>
 </resources>

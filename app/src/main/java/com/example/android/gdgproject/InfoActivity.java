@@ -1,17 +1,13 @@
 package com.example.android.gdgproject;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.CalendarContract;
+
 import android.support.v7.app.AppCompatActivity;
-import android.view.KeyEvent;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -19,8 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Calendar;
-import java.util.List;
+
 
 /**
  * Created by root on 19.04.16.
@@ -32,8 +27,8 @@ public class InfoActivity extends AppCompatActivity {
     private CheckBox checkBox;
     private Button backButton;
     private Button emailButton;
-    String gg;
-    private int count = 0;
+    private String gg;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +56,7 @@ public class InfoActivity extends AppCompatActivity {
                 }
             }
         });
+
         backButton = (Button) findViewById(R.id.back_button);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +72,7 @@ public class InfoActivity extends AppCompatActivity {
 
             }
         });
+
         emailButton = (Button) findViewById(R.id.email_button);
         emailButton.setVisibility(View.INVISIBLE);
         emailButton.setOnClickListener(new View.OnClickListener() {
@@ -84,12 +81,13 @@ public class InfoActivity extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
                 i.putExtra(Intent.EXTRA_EMAIL, new String[]{"dima.yonkov@gmail.com"});
-                i.putExtra(Intent.EXTRA_SUBJECT, "subject of email");
+                i.putExtra(Intent.EXTRA_SUBJECT, R.string.subject_email);
                 i.putExtra(Intent.EXTRA_TEXT, "");
                 try {
-                    startActivity(Intent.createChooser(i, "Отправить email"));
+                    String title = getResources().getString(R.string.send_email);
+                    startActivity(Intent.createChooser(i, title));
                 } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(InfoActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(InfoActivity.this, R.string.not_client, Toast.LENGTH_SHORT).show();
                 }
             }
         });

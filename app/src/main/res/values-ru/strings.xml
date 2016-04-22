@@ -52,5 +52,7 @@
     <string name="yes">http://www.kinopoisk.ru/film/391772/</string>
     <string name="depe">http://www.kinopoisk.ru/film/81314/</string>
     <string name="revolve">http://www.kinopoisk.ru/film/18973/</string>
-
+    <string name="not_client"> Установите почтовый клиент.</string>Отправить email
+    <string name="send_email"> Отправить email </string>
+    <string name="subject_email"> Укажите тему письма </string>
 </resources>
